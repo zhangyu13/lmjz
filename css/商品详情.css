@@ -1,0 +1,247 @@
+/*
+* @Author: lenovo
+* @Date:   2018-08-16 18:51:44
+* @Last Modified by:   lenovo
+* @Last Modified time: 2018-08-16 22:06:36
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+.top{
+	width: 100%;
+	height: 0.95rem;
+	background: #3ee7a4;
+	padding-right: 0.24rem;
+	text-align: center;
+	line-height: 1rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.top p{
+	font-size: 0.4rem;
+	color: #fff;
+}
+.top .one{
+	width: 0.5rem;
+	height: 0.5rem;
+	position: fixed;
+	top: 0.24rem;
+	left: 0.24rem;
+}
+.top .two{
+	width: 0.60rem;
+	height: 0.50rem;
+	position: fixed;
+	top: 0.24rem;
+	right: 0.74rem;
+}
+.top .three{
+	width: 0.5rem;
+	height: 0.5rem;
+	position: fixed;
+	top: 0.24rem;
+	/* left: 0.24rem; */
+	right: 0.24rem;
+}
+.banner{
+	width: 100%;
+	padding: 0.3rem 0.24rem;
+	margin-top: 0.95rem;
+}
+.banner .container{
+	width: 100%;
+	height: 3.25rem;
+    border-radius: 0.2rem;
+    background-image: url('../img/17.jpg'); 
+    background-size: cover;
+    box-shadow: 0 0.02rem 0.05rem 0.02rem rgba(62, 231, 164, 0.5);
+}
+.title{
+	width: 100%;
+	height: 0.5rem;
+	margin-bottom: 0.2rem;
+	padding: 0 0.24rem;
+}
+.title p{
+	font-size: 0.28rem;
+	color: #000;
+	float: left;
+	margin-top: 0.1rem;
+}
+.title .jr{
+	width: 1.25rem;
+	height: 100%;
+	border: 0.02rem solid #3ee7a4;
+	border-radius: 1rem;
+	font-size: 0.16rem;
+	color: #3ee7a4;
+	float: left;
+	text-align: center;
+	line-height: 0.5rem;
+	margin-left: 0.5rem;
+}
+.title .money{
+	font-size: 0.2rem;
+	color: #ffa304;
+	float: left;
+	margin-top: 0.2rem;
+	margin-left: 2rem;
+}
+.pj{
+	width: 100%;
+	height: 3.2rem;
+	margin-bottom: 0.2rem;
+	padding: 0 0.24rem;
+	overflow: hidden;
+}
+.pj .tb p{
+	font-size: 0.28rem;
+	color: #000;
+	float: left;
+	margin-top: 0.1rem;
+}
+.pj .tb .jr{
+	font-size: 0.2rem;
+	float: left;
+	margin-top: 0.2rem;
+	margin-left: 2.4rem;
+}
+.pj .tb .money{
+	width: 1.25rem;
+	height: 100%;
+	border: 0.02rem solid #3ee7a4;
+	border-radius: 1rem;
+	font-size: 0.16rem;
+	background: #3ee7a4;
+	float: left;
+	text-align: center;
+	color: #fff;
+	line-height: 0.5rem;
+	margin-left: 0.25rem;
+}
+.pj .tx{
+	margin-top: 0.6rem;
+}
+.pj .tx .left{
+	width: 0.95rem;
+	height: 0.95rem;
+	background-image: url('../img/30.jpg');
+	background-position: center top;
+	background-size: cover; 
+	float: left;
+	margin: 0.1rem 0;
+}
+.pj .tx .right{
+	float: left;
+}
+.pj .tx .right p{
+	font-size: 0.26rem;
+	margin-top: 0.25rem;
+	margin-left: 0.1rem;
+}
+.pj .tx .right h5{
+	font-size: 0.16rem;
+	margin-left: 0.1rem;
+}
+.pj .pl{
+	width: 100%;
+	height: 0.8rem;
+	border-radius: 0.1rem;
+	font-size: 0.22rem;
+	background: #d9d7d8;
+	text-align: center;
+	line-height: 0.8rem;
+	color: #fff;
+	margin-top: 2rem;
+}
+.tj{
+	padding: 0 0.24rem;
+}
+.tj p{
+	font-size: 0.28rem;
+	color: #000;
+	margin-top: 0.1rem;
+}
+.tj ul li{
+	width: 3.35rem;
+	height: 3.35rem;
+	border-radius: 0.1rem;
+	box-shadow: 0 0.02rem 0.05rem 0.02rem rgba(62, 231, 164, 0.5);
+	margin: 0.15rem;
+	text-align: center;
+	float: left;
+	overflow: hidden;
+}
+.tj ul li:nth-child(1){
+	margin-left: 0;
+}
+.tj ul li:nth-child(3){
+	margin-left: 0;
+	margin-bottom: 1.5rem;
+}
+.tj ul li:nth-child(2){
+	margin-right: 0;
+}
+.tj ul li:nth-child(4){
+	margin-right: 0;
+	margin-bottom: 1.5rem;
+}
+.tj ul li:nth-child(1) .pic{
+	width: 100%;
+	height: 2rem;
+	background-image: url('../img/张蓉--店铺简介_03.gif');
+	background-position: center bottom;
+	background-size: cover;
+}
+.tj ul li:nth-child(2) .pic{
+	width: 100%;
+	height: 2rem;
+	background-image: url('../img/张蓉--店铺简介_06.gif');
+	background-position: center bottom;
+	background-size: cover;
+}
+.tj ul li:nth-child(3) .pic{
+	width: 100%;
+	height: 2rem;
+	background-image: url('../img/张蓉--店铺简介_08.gif');
+	background-position: center bottom;
+	background-size: cover;
+}
+.tj ul li:nth-child(4) .pic{
+	width: 100%;
+	height: 2rem;
+	background-image: url('../img/张蓉--店铺简介_10.gif');
+	background-position: center bottom;
+	background-size: cover;
+}
+.tj ul li h4{
+    font-size: 0.26rem;
+    margin-top: 0.25rem;
+}
+.tj ul li h5{
+	font-size: 0.2rem;
+	color: #ffa304;
+	margin-top: 0.15rem;
+}
+footer{
+	width: 100%;
+	height: 1.71rem;
+	/* background: linear-gradient( to right,); */
+	/* overflow: scroll; */
+	position: fixed;
+	bottom: 0;
+}
+footer img{
+	width: 100%;
+	height: 100%;
+}

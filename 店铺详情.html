@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/练习.css">
+	<link rel="stylesheet" href="css/店铺详情.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+</head>
+<body>
+	<div class="top">
+	    <img src="img/15.png" alt="" class="one">
+	    <img src="img/16.png" alt="" class="two">
+	    <img src="img/17.png" alt="" class="three">
+		<div class="left">
+			<div class="pic"></div>
+		</div>
+		<div class="right">
+			<h2>青柠</h2>
+			<h5>店铺简介：新鲜美味，清新可口</h5>
+			<h5>你值得拥有</h5>
+			<div class="hd">
+			    <div class="cu">减</div>
+			    <p>满25减5，满40减10</p>
+			</div>
+			<div class="hd">
+			    <div class="cu">折</div>
+			    <p>折扣商品两折起</p>
+			</div>
+		</div>
+	</div>
+	<div class="center">
+		<div class="list">
+			<ul>
+				<li>热门推荐</li>
+				<li>本店必选</li>
+				<li>今日促销</li>
+				<li>精选饮品</li>
+				<li>特价商品</li>
+				<li>其他搭配</li>
+			</ul>
+		</div>
+		<div class="content">
+			<ul>
+				<li>
+				    
+					<a href="商品详情.html"><div class="left"><img src="img/张蓉--店铺简介_03.gif" alt=""></div></a>
+					<div class="right">
+					    <h2>柠檬水</h2>
+						<h5>今日特价</h5>
+						<h5>限购一份</h5>
+						<h4>1</h4><p>RMB</p>
+						<div class="jia">+</div>
+					    <span class="jiashu"></span>
+					    <div class="jie">-</div>
+					</div>
+					
+				</li>
+				<li>
+					<div class="left"><img src="img/张蓉--店铺简介_06.gif" alt=""></div>
+					<div class="right">
+					    <h2>柠檬水</h2>
+						<h5>今日特价</h5>
+						<h5>限购一份</h5>
+						<h4>1</h4><p>RMB</p>
+						<div class="jia">+</div>
+					<span class="jiashu"></span>
+					<div class="jie">-</div>
+					</div>
+				</li>
+				<li>
+					<div class="left"><img src="img/张蓉--店铺简介_08.gif" alt=""></div>
+					<div class="right">
+					    <h2>柠檬水</h2>
+						<h5>今日特价</h5>
+						<h5>限购一份</h5>
+						<h4>1</h4><p>RMB</p>
+						<div class="jia">+</div>
+					<span class="jiashu"></span>
+					<div class="jie">-</div>
+					</div>
+				</li>
+				<li><div class="left"><img src="img/张蓉--店铺简介_10.gif" alt=""></div>
+					<div class="right">
+					    <h2>柠檬水</h2>
+						<h5>今日特价</h5>
+						<h5>限购一份</h5>
+						<h4>1</h4><p>RMB</p>
+						<div class="jia">+</div>
+					<span class="jiashu"></span>
+					<div class="jie">-</div>
+					</div></li>
+			</ul>
+		</div>
+	</div>
+	<footer>
+		<div class="shop">
+		</div>
+		<div class="money">未选购商品
+		另需配送费￥5</div>
+		<div class="balance">￥20元起送</div>
+	</footer>
+	<div class="zhifu-box">
+		<div class="shang"></div>
+		<div class="xia">
+			<h4>柠檬水</h4>
+			<p class="pp">今日特价，限购一份</p>
+			<div class="jia1">
+				<div class="j1">+</div>
+				<span>2</span>
+				<div class="j2">-</div>
+			</div>
+			<div class="queren">
+				<p class="p1">合计:￥20</p>
+				<div class="qr"><a href="确认支付.html">确认支付</a></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+<script>
+	window.onload=function(){
+	let jia=document.querySelector(".jia");
+	let jie=document.querySelector(".jie");
+	let shu=document.querySelector(".content .jiashu");
+	let balance=document.querySelector(".balance");
+	let zhifubox=document.querySelector(".zhifu-box");
+	let i=0;
+	console.log(jia,jie,shu,balance);
+	jia.onclick=function(e){
+		e.stopPropagation();
+		jie.style.display="block";
+		i++;
+		shu.innerHTML=i;
+		if(i>=2){
+			balance.style.backgroundColor="#f08012";
+		}
+
+	}
+	jie.onclick=function(e){
+		e.stopPropagation();
+		i--;
+		if(i==0){
+			jie.style.display="none";
+			shu.style.display="none"
+		}
+		shu.innerHTML=i;
+	}
+	balance.onclick=function(){
+		zhifubox.style.display="block";
+	}
+
+}
+</script>

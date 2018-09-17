@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/练习.css">
+	<link rel="stylesheet" href="css/首页.css">
+	<link rel="stylesheet" href="css/swiper-4.3.5.min.css">
+	<script src="swiper-4.3.5.min.js"></script>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+</head>
+<body>
+	<!-- 头部 -->
+	<header>
+		<div class="pos">
+			<i>首页</i>
+		</div>
+		<input type="text" placeholder="搜索">
+		<img src="img/2.png" alt="">
+	</header>
+	<!-- 头部结束 -->
+
+    <!-- banner -->
+    <div class="banner">
+	<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="img/41.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="img/42.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="img/43.jpg" alt=""></div>
+    </div>
+
+    <!-- 如果需要分页器 -->
+    <div class="swiper-pagination"></div>
+    </div>
+</div>
+
+    <!-- banner结束 -->
+
+	<!-- 导航 -->
+	<nav>
+		<ul>
+			<li><img src="img/4.png" alt=""></li>
+			<li><img src="img/5.png" alt=""></li>
+			<li><img src="img/6.png" alt="" class="last"></li>
+			<li><img src="img/7.png" alt=""></li>
+		</ul>	
+		<div class="name">
+		    <p>美食</p>
+			<p>下午茶</p>
+			<p>西餐</p>
+			<p>超市</p>
+		</div>
+		<ul>
+			<li><img src="img/8.png" alt=""></li>
+			<li><img src="img/9.png" alt=""></li>
+			<li><img src="img/10.png" alt=""></li>
+			<li><img src="img/11.png" alt=""></li>
+		</ul>
+		<div class="name">
+			<p>甜品饮品</p>
+			<p>蔬果生鲜</p>
+			<p>新店特惠</p>
+			<p>送药上门</p>
+		</div>
+	</nav>
+	<!-- 导航结束 -->
+
+    <!-- 列表 -->
+	<div class="list">
+		<div class="top">
+			<div class="title"><img src="img/12.png" alt=""></div>
+		    <div class="nr"><img src="img/images/张蓉--首页_03.png" alt=""></div>
+		</div>
+		<div class="bottom">
+			<div class="title"><img src="img/13.png" alt=""></div>
+			<div class="sec">
+				<ul>
+					<li>综合排序</li>
+					<li>好评优先</li>
+					<li>距离最近</li>
+					<li>筛选</li>
+				</ul>
+			</div>
+			<div class="three">
+			    <ul>
+			    	<li>
+			    		<div class="left">
+     				        <img src="img/张蓉--首页_03.png" alt="">
+     			        </div>
+     			        <a href="店铺详情.html">
+     			        <div class="right">
+     				        <h5>青柠</h5>
+     				        <div class="des">6.7分</div>
+     				        <div class="show">起送￥20 配送￥4 人均￥51</div>
+     				        <div class="shou">
+     					        <div class="pic">折</div>
+     					        <p>折扣商品两折起</p>
+     				        </div>
+     				        <div class="shou">
+     					        <div class="pic">减</div>
+     					        <p>满20减3；满30减5；满50减8</p>
+     				        </div>
+     				    </div>
+     				    </a>
+			    	</li>
+			    	<li>
+			    		<div class="left">
+     				        <img src="img/张蓉--首页_06.png" alt="">
+     			        </div>
+     			        <div class="right">
+     				        <h5>青柠</h5>
+     				        <div class="des">6.7分</div>
+     				        <div class="show">起送￥20 配送￥4 人均￥51</div>
+     				        <div class="shou">
+     					        <div class="pic">折</div>
+     					        <p>折扣商品两折起</p>
+     				        </div>
+     				        <div class="shou">
+     					        <div class="pic">减</div>
+     					        <p>满20减3；满30减5；满50减8</p>
+     				        </div>
+     				    </div>
+			    	</li>
+			    	<li>
+			    		<div class="left">
+     				        <img src="img/张蓉--首页_08.png" alt="">
+     			        </div>
+     			        <div class="right">
+     				        <h5>青柠</h5>
+     				        <div class="des">6.7分</div>
+     				        <div class="show">起送￥20 配送￥4 人均￥51</div>
+     				        <div class="shou">
+     					        <div class="pic">折</div>
+     					        <p>折扣商品两折起</p>
+     				        </div>
+     				        <div class="shou">
+     					        <div class="pic">减</div>
+     					        <p>满20减3；满30减5；满50减8</p>
+     				        </div>
+     				    </div>
+			    	</li>
+			    </ul>
+			</div>
+		</div>
+	</div>
+	<!-- 列表结束 -->
+
+	<!-- 底部 -->
+	<footer>
+		<ul>
+			<li><img src="img/18.png" alt=""></li>
+			<li><img src="img/19.png" alt=""></li>
+			<li><img src="img/20.png" alt=""></li>
+			<li><img src="img/21.png" alt=""></li>
+		</ul>
+	</footer>
+<script>        
+  var mySwiper = new Swiper ('.swiper-container', {
+    direction: 'horizontal',
+    loop: true,
+    autoplay:true,
+    // 如果需要分页器
+    pagination: {
+      el: '.swiper-pagination',
+    },
+})       
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,101 @@
+/*
+* @Author: lenovo
+* @Date:   2018-08-16 22:10:38
+* @Last Modified by:   lenovo
+* @Last Modified time: 2018-08-17 10:02:15
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+.box{
+	width: 7.5rem;
+	height: 13.34rem;
+	background-image: url('../img/38.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center top;
+	overflow: hidden;
+}
+.box .cover{
+	width: 100%;
+	height: 100%;
+	background: rgba(62, 231, 164, 0.3);
+}
+.dl{
+	width: 2.3rem;
+	height: 0.6rem;
+	background: #fea203;
+	border-radius: 0.1rem;
+	font-size: 0.3rem;
+	color: #fff;
+	line-height: 0.6rem;
+	text-align: center;
+	position: fixed;
+	top: 1rem;
+	right: 0.24rem;
+}
+main{
+	width: 7.02rem;
+	height: 6.8rem;
+	margin: 0.24rem;
+	background: #04fe9a;
+	border-radius: 0.8rem;
+	position: fixed;
+	bottom: 0.5rem;
+	padding-top: 0.8rem;
+}
+main .zh .left{
+	font-size: 0.4rem;
+	color: #fff;
+	margin-left: 1.35rem;
+	float: left;
+	margin-bottom: 0.2rem;
+}
+main .zh input{
+	width: 2.5rem;
+	height: 0.6rem;
+	background: #04fe9a;
+	outline: none;
+	border: none;
+	border-bottom: 0.05rem solid #fff;
+	margin-top: 0.1rem;
+	margin-left: 0.4rem;
+	float: left;
+	margin-bottom: 0.2rem;
+}
+main .yz input{
+	margin-left: 0;
+}
+.hq{
+	width: 2.3rem;
+	height: 0.6rem;
+	background: #fea203;
+	border-radius: 0.1rem;
+	font-size: 0.26rem;
+	color: #fff;
+	line-height: 0.6rem;
+	text-align: center;
+	margin-left: 3rem;
+	margin-top: 2.8rem;
+}
+.zc{
+	width: 2.3rem;
+	height: 0.6rem;
+	background: #fff;
+	border-radius: 0.1rem;
+	font-size: 0.3rem;
+	color: #3ee7a4;
+	line-height: 0.6rem;
+	text-align: center;
+	margin-left: 2.3rem;
+	margin-top: 0.9rem;
+}
